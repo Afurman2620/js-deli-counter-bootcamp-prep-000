@@ -15,8 +15,8 @@ function currentLine(line){
   if (line.lenght === 0) return "The line is currently empty."
   else{
     for (let n = 0; n < deliLine.length; n++){
-        newLine[i] = `${[i+1]}. ${katzDeliLine[i]}`;
+        deliLine[n] = `${[n+1]}. ${DeliLine[n]}`;
       }
-    str += newLine.join(', ')
-    return str;
+    n += deliLine.join(', ')
+    return n;
   }
