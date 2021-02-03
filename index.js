@@ -11,5 +11,6 @@ function nowServing (line){
 
 function currentLine(line){
   var n = `The line is currently: `
-  var deliLine = 
+  var deliLine = []
+  
 }
