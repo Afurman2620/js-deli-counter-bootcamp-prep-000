@@ -16,6 +16,6 @@ function currentLine(line){
   else{
     for (let i = 0; i < line.length; i++)
     { deliLine[i] = `${[i+1]}. ${line[i]}`;}
-    return line
+    return n
   }
 }
