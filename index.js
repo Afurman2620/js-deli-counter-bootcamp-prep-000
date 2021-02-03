@@ -18,5 +18,6 @@ function currentLine(line){
     { deliLine[i] = `${[i+1]}. ${line[i]}`;}
     
   }
-  return `The line is currently: ${deliLine .join}`
+  
+  return `The line is currently: ${deliLine.join}`
 }
