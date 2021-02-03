@@ -15,6 +15,6 @@ function currentLine(line){
   if (line.lenght === 0) return "The line is currently empty."
   else{
     for (let i = 0; i < line.length; i++)
-    { deliLine[i] = `${[i+1]}. ${line[i]}`;}
+    { deliLine[i] = `${[name+1]}. ${line[i]}`;}
   }
 }
