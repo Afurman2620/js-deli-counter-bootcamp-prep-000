@@ -18,5 +18,5 @@ function currentLine(line){
     { deliLine[i] = `${[i+1]}. ${line[i]}`;}
     
   }
-  return deliLine
+  return line
 }
