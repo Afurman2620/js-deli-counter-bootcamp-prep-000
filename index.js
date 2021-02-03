@@ -11,13 +11,13 @@ function nowServing (line){
 
 function currentLine(line){
   var n = `The line is currently:`
-  var deliLine = []
+  var str = []
   if (line.lenght === 0) return "The line is currently empty."
   else{
     for (let i = 0; i < line.length; i++)
-    { deliLine[i] = `${[i+1]}. ${line[i]}`;}
+    { str[i] = `${[i+1]}. ${line[i]}`;}
     
   }
   
-  return `The line is currently: ${deliLine.join}`
+  return `The line is currently: ${str.join}`
 }
