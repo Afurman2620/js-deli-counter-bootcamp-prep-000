@@ -10,5 +10,6 @@ function nowServing (line){
 }
 
 function currentLine(line){
-  var n = 
+  var n = `The line is currently: `
+  var 
 }
