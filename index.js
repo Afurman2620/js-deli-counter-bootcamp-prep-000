@@ -17,5 +17,5 @@ function currentLine(line){
     for (let i = 0; i < line.length; i++)
     { str[i] = `${[i+1]}. ${line[i]}`;}
   }
-  return `The line is currently: ${str.join}`
+  return `The line is currently: ${str}`
 }
