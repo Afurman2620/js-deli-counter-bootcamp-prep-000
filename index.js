@@ -9,3 +9,7 @@ function nowServing (line){
   else return "There is nobody waiting to be served!";
 }
 
+function currentLine(line){
+  var n = `The line is currently: `
+  var deliLine = []
+  if (line.lenght === 0) return "The line is currently empty."
