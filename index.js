@@ -12,5 +12,6 @@ function nowServing (line){
 function currentLine(line){
   var n = `The line is currently: `
   var deliLine = []
-  if (line.lenght === 0) return 
+  if (line.lenght === 0) return "The line is currently empty."
+  else ()
 }
